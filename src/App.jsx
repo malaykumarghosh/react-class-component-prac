@@ -4,6 +4,8 @@ import OrganizationDetails from "./components/OrganizationDetails";
 import MountComponent from "./components/MountComponent";
 import UpdateComponent from "./components/UpdateComponent";
 import UnmountComponent from "./components/UnmountComponent";
+import ParentComponent from "./components/ParentComponent";
+
 
 function App(){
   return (
@@ -19,6 +21,9 @@ function App(){
       <br></br>
       <br></br>
       <UnmountComponent />
+      <br></br>
+      <br></br>
+      <ParentComponent />
     </>
   );
 }
