@@ -5,9 +5,9 @@ import MountComponent from "./components/MountComponent";
 import UpdateComponent from "./components/UpdateComponent";
 import UnmountComponent from "./components/UnmountComponent";
 import ParentComponent from "./components/ParentComponent";
+import AnotherParent from "./components/AnotherParent";
 
-
-function App(){
+function App() {
   return (
     <>
       <MyComponent />
@@ -24,7 +24,13 @@ function App(){
       <br></br>
       <br></br>
       <ParentComponent />
+      <br></br>
+      <br></br>
+      <AnotherParent />
+      <br></br>
+      <br></br>
     </>
   );
 }
+
 export default App;
